@@ -515,6 +515,31 @@
             <use href="./images/sprite.svg#icon-close"></use>
           </svg>
         </button>
+        <p class="modal-title">Оставьте свои данные, мы вам перезвоним</p>
+        <form action="#" class="modal-form">
+          <div class="modal-field">
+            <label for="name" class="input-label">Имя</label>
+            <input type="name" name="name" id="name" class="modal-input" />
+          </div>
+          <div class="modal-field">
+            <label for="tel" class="input-label">Телефон</label>
+            <input type="tel" name="tel" id="tel" class="modal-input" />
+          </div>
+          <div class="modal-field">
+            <label for="email" class="input-label">Почта</label>
+            <input type="email" name="email" id="email" class="modal-input" />
+          </div>
+          <div class="modal-field">
+            <label for="comment" class="input-label">Комментарий</label>
+            <textarea
+              name="comment"
+              id="comment"
+              class="modal-text-input"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+          <button type="submit" class="modal-btn btn">Отправить</button>
+        </form>
       </div>
     </div>
     <!-- <script src="./js/modal.js"></script> -->
