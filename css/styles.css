@@ -842,6 +842,11 @@ body {
   margin-bottom: 4px;
 }
 
+.input-wrapper {
+  display: block;
+  position: relative;
+}
+
 .modal-input {
   width: 100%;
   height: 40px;
@@ -853,14 +858,15 @@ body {
   padding-right: 20px;
 }
 
-.input-icon {
-  width: 13px;
-  height: 13px;
-  position: absolute;
-}
-
 .modal-field {
   margin-bottom: 10px;
+}
+
+.input-icon {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translateY(-5%);
 }
 
 .modal-text-input {
