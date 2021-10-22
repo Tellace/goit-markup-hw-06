@@ -508,7 +508,7 @@
         </div>
       </footer>
     </main>
-    <div class="backdrop is-hidde" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="close-btn" data-modal-close>
           <svg class="close-icon">
@@ -522,11 +522,7 @@
             <span class="input-wrapper">
               <input type="name" name="name" id="name" class="modal-input" />
               <svg class="input-icon">
-                <use
-                  href="./images/sprite.svg#icon-ppl"
-                  width="12"
-                  height="12"
-                ></use>
+                <use href="./images/sprite.svg#icon-ppl"></use>
               </svg>
             </span>
           </div>
@@ -535,11 +531,7 @@
             <span class="input-wrapper">
               <input type="tel" name="tel" id="tel" class="modal-input" />
               <svg class="input-icon">
-                <use
-                  href="./images/sprite.svg#icon-tel"
-                  width="13"
-                  height="13"
-                ></use>
+                <use href="./images/sprite.svg#icon-tel"></use>
               </svg>
             </span>
           </div>
@@ -548,11 +540,7 @@
             <span class="input-wrapper">
               <input type="email" name="email" id="email" class="modal-input" />
               <svg class="input-icon">
-                <use
-                  href="./images/sprite.svg#icon-email"
-                  width="15"
-                  height="12"
-                ></use>
+                <use href="./images/sprite.svg#icon-email"></use>
               </svg>
             </span>
           </div>
@@ -565,10 +553,24 @@
               placeholder="Введите текст"
             ></textarea>
           </div>
+          <input
+            type="checkbox"
+            id="modal-checkbox"
+            class="modal-checkbox visually-hidden"
+          />
+          <label for="modal-checkbox" class="check-text"
+            ><span class="custom-checkbox">
+              <svg class="check-icon">
+                <use href="./images/sprite.svg#icon-galka"></use>
+              </svg>
+            </span>
+            Соглашаюсь с рассылкой и принимаю
+            <a href="" class="terms-of-use">Условия договора</a></label
+          >
           <button type="submit" class="modal-btn btn">Отправить</button>
         </form>
       </div>
     </div>
-    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
