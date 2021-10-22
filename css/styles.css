@@ -853,6 +853,12 @@ body {
   padding-right: 20px;
 }
 
+.input-icon {
+  width: 13px;
+  height: 13px;
+  position: absolute;
+}
+
 .modal-field {
   margin-bottom: 10px;
 }
@@ -890,7 +896,4 @@ body {
   color: #ffffff;
   display: block;
   margin: 0 auto;
-}
-
-.modal-btn:hover {
 }
