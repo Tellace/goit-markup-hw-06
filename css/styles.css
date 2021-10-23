@@ -450,7 +450,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   max-height: 252px auto;
-  min-width: 1600px;
+  max-width: 1600px;
   margin: auto;
 }
 .basement-container {
@@ -903,7 +903,6 @@ body {
   padding-right: 16px;
   resize: none;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-bottom: 20px;
 }
 
 .modal-text-input:hover,
@@ -932,7 +931,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .check-text span {
@@ -967,6 +966,7 @@ body {
   display: block;
   margin: 0 auto;
   cursor: pointer;
+  margin-top: 30px;
 }
 
 .modal-btn:hover {
